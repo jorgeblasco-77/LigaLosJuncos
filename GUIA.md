@@ -84,3 +84,9 @@ Panel > **Jornadas y partidos** > elige la jornada > abre el partido > escribe l
 
 ## 12. Ampliaciones futuras ya previstas por la estructura
 Calendario por fechas, estadísticas individuales, gráficas de evolución (se pueden calcular desde `partidos` y `sets`), temporadas (añadiendo una tabla `temporadas` y una columna en `jornadas`), noticias y notificaciones (nuevas tablas y la misma conexión en tiempo real).
+
+## 13. Instalarla en el móvil como una app (PWA)
+Una vez publicada la web, cada jugador puede dejarla como icono en su pantalla de inicio:
+- **iPhone (Safari):** abrir el enlace > botón Compartir > **Añadir a pantalla de inicio**.
+- **Android (Chrome):** menú de los tres puntos > **Instalar aplicación** o **Añadir a pantalla de inicio**.
+Se abre a pantalla completa y siempre con los datos actualizados (no guarda copias antiguas). Para cambiar el icono, sustituye `app/icon.png`, `app/apple-icon.png`, `public/icon-192.png` y `public/icon-512.png` por tu logo (cuadrado, 512×512 px).
